@@ -38,7 +38,9 @@ const EmailSection = () => {
             {/* Left Side - Headers and Paragraph */}
             <div className="mt-0">
                 {/* Main Contact Me Header */}
-                <h2 className="text-4xl font-bold text-white mb-4">Contact Me</h2>
+                <h2 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+                        <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-400 via-gray-500 to-pink-500">Contact Me</span>
+                    </h2>
 
                 {/* Subheader and Paragraph */}
                 <h5 className="text-xl font-bold text-white mt-10 my-2">Let's Connect</h5>

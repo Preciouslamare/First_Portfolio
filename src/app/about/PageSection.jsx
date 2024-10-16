@@ -20,8 +20,12 @@ const PageSection = () => {
 
                 {/* Content Section - on small screens, this will be on top */}
                 <div className="order-1 md:order-2 mb-8 md:mb-0">
-                    <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
-                    <p className="text-[#ADB7BE] lg:text-lg mb-8">
+
+                <h2 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold">
+                        <span className="text-transparent bg-clip-text bg-gradient-to-br from-blue-400 via-gray-500 to-pink-500">About Me</span>
+                    </h2>
+
+                    <p className="text-[#ADB7BE] lg:text-[16px] mb-8">
                         Hey there! I’m Precious, a frontend developer with a strong 
                         passion for crafting intuitive and visually appealing web applications. 
                         My journey into web development began out of a curiosity to understand 
