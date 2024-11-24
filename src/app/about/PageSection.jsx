@@ -58,11 +58,12 @@ const PageSection = () => {
                         </ul>
                     </div>
                     <div className={`mt-8 transition-opacity duration-500 ease-in-out ${activeTab === 'education' ? 'opacity-100 block' : 'opacity-0 hidden'}`}>
-                        <p className="text-[#ADB7BE]">
-                            Bachelor of Engineering in CSE 
-                            <p>Shree Devi Institute Of Technology, Mangalore</p> 
-                            <p>Visvesvarayya Technological University (2020-2024)</p>
-                        </p>
+                    <div className="text-[#ADB7BE]">
+                        <p>Bachelor of Engineering in CSE</p>
+                        <p>Shree Devi Institute Of Technology, Mangalore</p>
+                        <p>Visvesvarayya Technological University (2020-2024)</p>
+                    </div>
+
                     </div>
                     <div className={`mt-8 transition-opacity duration-500 ease-in-out ${activeTab === 'experience' ? 'opacity-100 block' : 'opacity-0 hidden'}`}>
                         <div className="text-[#ADB7BE]">

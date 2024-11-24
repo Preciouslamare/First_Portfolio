@@ -49,7 +49,7 @@ const HeroSection = () => {
                     <div className="rounded-full w-[250px] h-[250px] lg:w-[300px] lg:h-[300px] relative mx-auto hover:shadow-[0_0_30px_10px_rgba(29,78,216,0.7),_0_0_60px_20px_rgba(233,30,99,0.5)] transition-shadow duration-300 ease-in-out">
                         <div className="rounded-full bg-[#181818] w-full h-full relative overflow-hidden">
                             <Image
-                                src="/images/5.png"
+                                src="/images/3.png"
                                 alt="hero image"
                                 className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                                 width={200}
